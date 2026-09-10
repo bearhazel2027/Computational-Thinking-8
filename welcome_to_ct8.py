@@ -27,4 +27,9 @@ print("\n\n")
                                                                                           
                                   
 print("Now it's your turn:")
-print("Find this line (line 30) in the welcome_to_ct8.py file, then change the message to say a fact about you.")                                  
+print("okay lets play two truths and a lie!")
+print("I have two dogs: Bear and Hazel!-vida")          
+print("I also have two siblings!")      
+print("I love to do dance and gymnastics!")     
+input("\n---Press Enter when you have your guess---\n")
+print("the lie was about my siblings! i have three siblings not just two!")
