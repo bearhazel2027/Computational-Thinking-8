@@ -4,14 +4,21 @@ print("In this game there is a preset mystery pant color. You will have to pick 
 "matched then you get coins. But if make a clash, you lose :(")
 
 import random
-hidden_number = random.randit(1,2)
+hidden_number = random.randint(1,2)
 
 
 #loop starts here from line 
 
 for i in range(2):
     if hidden_number > 1 : 
-        pant_color == "green" 
+        pant_color = "green"
         print("Time to play!Your clue is: I have a double letter, the letter rhymes with bee. When birds look down below this is the color they see. ") 
         shoe_color = input("Please pick your shoe color")
         top_color = input("Please pick your top color")
+        
+    else:
+        pant_color = "blue"
+        print("Time to play!Your clue is: I am calm and cool like a peaceful tide. I am opposite of orange. ") 
+        shoe_color = input("Please pick your shoe color")
+        top_color = input("Please pick your top color")
+
